@@ -115,7 +115,7 @@ function buildMsg(name, text){
     return {
         name,
         text,
-        time: new Intl.DateTimeFormat("default", {
+        time: new Intl.DateTimeFormat("en-IN", {
             hour:"numeric",
             minute: "numeric",
             second:"numeric"
