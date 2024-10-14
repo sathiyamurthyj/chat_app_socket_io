@@ -118,7 +118,8 @@ function buildMsg(name, text){
         time: new Intl.DateTimeFormat("en-IN", {
             hour:"numeric",
             minute: "numeric",
-            second:"numeric"
+            second:"numeric",
+            timeZone: "Asia/Kolkata"
         }).format(new Date())
     }
 };
